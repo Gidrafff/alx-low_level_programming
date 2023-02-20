@@ -24,7 +24,5 @@ int main(void)
 			d++;
 		}
 	putchar('\n');
-	(I = 'a', I <= 'z', I++) {
-	putchar(I);
 	return (0);
 }
