@@ -5,7 +5,7 @@
  * Return: empty output
  */
 
-void times_tablet(void)
+void times_table(void)
 
 {
 	int x, y, z, u, d;
