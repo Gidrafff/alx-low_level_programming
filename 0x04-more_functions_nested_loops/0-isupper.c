@@ -2,8 +2,7 @@
 
 /**
  * Main - Entry point
- *
- * Description:  _isuper - Check if a letter is upper
+ * Description:  _isupper - Check if a letter is upper
  * @c: char to check
  *
  * Return: 0 or 1
