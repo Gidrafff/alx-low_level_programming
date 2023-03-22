@@ -1,14 +1,10 @@
-/**
- * _isupper - uppercase letters
- * @c: char to check
- *
- * Return: 0 or 1
- */
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 
-int _isupper(int c)
+int _putchar(char c)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (1);
-	else
-		return (0);
+    return putchar(c);
 }
