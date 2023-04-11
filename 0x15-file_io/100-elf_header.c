@@ -18,7 +18,7 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident);
 void close_elf(int elf);
 
 /**
- * check_elf - Checks if a file is an ELF file.
+ * check_elf - Checksx if a file is an ELF file.
  * @e_ident: A pointer to an array containing the ELF magic numbers.
  *
  * Description: If the file is not an ELF file - exit code 98.
@@ -115,6 +115,7 @@ void print_data(unsigned char *e_ident)
  *  * print_version - Prints the version of an ELF header.
  *   * @e_ident: A pointer to an array containing the ELF version.
  *    */
+
 void print_version(unsigned char *e_ident)
 {
 	 printf(" Version: %d",
@@ -180,6 +181,7 @@ void print_osabi(unsigned char *e_ident)
  * print_abi - Prints the ABI version of an ELF header.
  * @e_ident: A pointer to an array containing the ELF ABI version.
  */
+
 void print_abi(unsigned char *e_ident)
 {
 	printf(" ABI Version: %d\n",
